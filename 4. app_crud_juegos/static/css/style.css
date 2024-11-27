@@ -1,0 +1,132 @@
+/* Usar Poppins para encabezados y Nunito para texto */
+body {
+    font-family: 'Nunito', sans-serif;
+}    
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; /* Titulos un poco más destacados */
+}
+
+h3 {
+    text-align: center;
+}
+
+.utilidades a {
+    margin-right: 5px;
+}
+
+.utilidades form {
+    display: inline;
+}
+
+/* Boton para agregar un nuevo registro*/
+.btn-agg{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background: #7E22E2;
+    width: 140px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn-agg:hover, .btn-agg:focus, .btn-agg:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/*Fin del boton para agregar un nuevo registro*/
+
+
+/* Boton de información*/
+.utilidades .btn-informacion{
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    background: #0692FD;
+    width: 100px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.utilidades .btn-informacion:hover, .utilidades .btn-informacion:focus, .utilidades .btn-informacion:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/*Fin del boton de información*/
+
+
+/*Boton de editar*/
+.utilidades .btn-edit{
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    background: #69DA6B;
+    width: 100px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.utilidades .btn-edit:hover, .utilidades .btn-edit:focus, .utilidades .btn-edit:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/*Fin del boton de editar*/
+
+
+/*Boton de eliminar*/
+.form .btn-delete {
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    background: #EC4134;
+    width: 100px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.form .btn-delete:hover, .form .btn-delete:focus, .form .btn-delete:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/*Fin del boton de eliminar*/
