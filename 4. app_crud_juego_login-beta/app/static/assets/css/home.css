@@ -1,0 +1,150 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color:#EAEAEA!important; 
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.form-label {
+    margin-bottom: 0px !important;
+}
+
+.btn-send {
+    border-radius: 25px;
+    background-color:#2C3E50; 
+    border: none;
+    color: #EAEAEA;
+    font-weight: bold;
+}
+
+.btn-send:hover {
+    background-color: #333333;
+    color: #EAEAEA!important;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#title {
+    color: #2C3E50;
+    text-align: center;
+    margin-top: -80px;
+    font-weight: 600;
+}
+.text-darkblue{
+    color: #004171;
+}
+
+#link_forgot_password {
+    color: #004171;
+    padding: 0px 15px
+}
+
+#link_sign_up {
+    color: #0f1527; 
+    text-decoration: none;
+    margin-left: 120px;
+}
+
+#link_sign_up:hover {
+    color: #2C3E50;
+    font-weight: 500;
+}
+
+#link_forgot_password:hover {
+    color: #f1b32c;
+    font-weight: 500;
+}
+
+#styleLogin {
+    margin-top: 50px !important;
+    background: #f9f9f9;
+    padding: 30px 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    min-width: 450px;
+}
+
+.bi-arrow-left-short {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #333;
+}
+
+#here{
+    color: #004171;
+}
+#here:hover{
+    color: #f1b32c !important;
+}
+
+#sidebar{
+    border: 2px solid #2C3E50;
+    border-radius: 5px;
+    
+}
+
+.styFormDashboard{
+    background: #f9f9f9;
+    padding: 30px 40px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.logoLogin{
+    width: 100%;
+    height:100px; 
+    width:100px;
+    border-radius:50%;
+    position: relative;
+    top: -80px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+@media screen and (min-width: 1000px) {
+    #styleLogin{
+        margin: 0 auto;
+        width: 35% !important;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 680px) {
+    #styleLogin{
+        margin: 0 auto;
+        width: 80% !important;
+    }
+}
+
+.volverViewLogin{
+    color: #0f1527;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 160px;
+    
+
+    i{
+        color: #0f1527;
+        transition: transform 0.3s ease;
+    }
+}
+
+.volverViewLogin:hover{
+    color: #2C3E50;
+}
+
+i:hover{
+    color: #2C3E50;
+
+}
+
+
+
+
+
+
+
